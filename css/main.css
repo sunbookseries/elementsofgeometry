@@ -39,14 +39,23 @@ div#title{
     font-size: 27px;
     
 }
+div#appicon3 {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 78px;
+    top: 165px;
+    background: transparent url(../img/icon3.png) no-repeat;
+    border-radius: 20px;
+    box-shadow:#fff 0 0 15px;
+}
 div#appicon {
     position: absolute;
     width: 144px;
     height: 144px;
     left: 78px;
-    top: 195px;
+    top: 420px;
     background: transparent url(../img/icon144.png) no-repeat;
-    
     border-radius: 20px;
     box-shadow:#fff 0 0 15px;
 }
@@ -61,10 +70,21 @@ div#ipad {
 }
 .store {
     position: absolute;
-    top: 385px;
+    top: 575px;
     left: 30px;
     text-align:center;
     
+}
+.store3 {
+    position: absolute;
+    top: 325px;
+    left: 30px;
+    text-align:center;
+    
+}
+
+.store3 :hover{
+    text-shadow: #e9da7b 0 0 15px;
 }
 .store :hover{
     text-shadow: #e9da7b 0 0 15px;
